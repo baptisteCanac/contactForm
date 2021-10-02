@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#app{
+	display: flex;
+	justify-content: center;
+}
+.cardContainer{
+	width: 606px;
+	height: 860px;
+	background: #fff;
+	box-shadow: 0px 24px 35px -15px rgba(100, 93, 152, 0.17);
+	border-radius: 25px;
+}
+.closeButton{
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+.titleContainer{
+	padding-top: 85px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 69px;
+}
+.title{
+	width: 225px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+}
+.fullName{
+	display: flex;
+	justify-content: center;
+}
+.email{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.menuDeroulant{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+.selectMenu{
+	width: 418px;
+	height: 45px;
+}
+input[type="text"]{
+	width: 418px;
+	height: 45px;
+	outline: none;
+	border-top: none;border-left: none;border-right: none;
+	border-bottom: 1px solid #333;
+}
+.textareaContainer{
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+textarea{
+	width: 476px;
+	height: 159px;
+	background: #FFFFFF;
+	border: 2px solid #E6E6E6;
+	box-sizing: border-box;
+	border-radius: 10px;
+	outline: none;
+}
+.submitButton{
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+select{
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: 500;
+	outline: none;
+}
+button{
+	width: 475px;
+	height: 72px;
+	background: #151534;
+	border-radius: 70px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
